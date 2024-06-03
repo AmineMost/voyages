@@ -1,0 +1,46 @@
+/* Pour les écrans de moins de 1400px */
+@media (max-width: 1399.98px) {
+    header {
+        background: linear-gradient(to right, rgb(97,227,194), rgb(70,134,195));
+        border-bottom: 10px solid #cc4c4c;
+    }
+
+    footer {
+        background: linear-gradient(to right, rgb(97,227,194), rgb(70,134,195));
+        border-top: 10px solid #cc4c4c;
+    }
+
+    main {
+        width: 70%;
+    }
+}
+
+/* Pour les écrans de moins de 650px (mobiles) */
+@media (max-width: 650px) {
+    header {
+        background: linear-gradient(to right, rgb(97,227,194), rgb(70,134,195));
+        border-bottom: 10px solid #cc4c4c;
+    }
+
+    footer {
+        background: linear-gradient(to right, rgb(97,227,194), rgb(70,134,195));
+        border-top: 10px solid #cc4c4c;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .destination {
+        display: block;
+        text-align: center;
+    }
+
+    .image-wrapper {
+        margin: 0 auto 20px auto;
+    }
+
+    .description {
+        max-width: 100%;
+    }
+}
